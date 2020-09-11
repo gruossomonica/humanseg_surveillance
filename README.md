@@ -54,8 +54,9 @@ The function `preprocessImage.m` is used to resize the input image before gettin
 
 ### Pretrained models
 
-Please download `trainedNetwork_indoor.mat` and `trainedNetwork_outdoor.mat` to use our trained networks for indoor and outdoor areas that we chose.
-You have to load the appropriate model into the MATLAB command window and then query the network with images in the "photos" folder, which contains real photos taken directly with a camera.
+- Please download the [pretrained models](https://drive.google.com/drive/folders/1SZ-o2a0VBJTlzp6MzsbLA05MX1hjT1UD?usp=sharing)
+- Choose the suitable network: `trainedNetwork_indoor.mat` and `trainedNetwork_outdoor.mat` are the trained networks for indoor and outdoor areas that we chose.
+- Load the appropriate model into the MATLAB command window and then query the network with images in the "photos" folder, which contains real photos taken directly with a camera.
 
 ## Citation
 
