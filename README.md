@@ -2,6 +2,10 @@
 
 ![teaser](images/teaser.png)
 
+This repo contains the training and testing code for Human Segmentation in Surveillance Video with Deep Learning
+
+For technical details and the dataset, please refer to the [paper](https://link.springer.com/article/10.1007/s11042-020-09425-0) and [project page](http://graphics.unibas.it/www/HumanSegmentation/index.md.html)
+
 ## Usage
 
 
@@ -52,3 +56,18 @@ The function `preprocessImage.m` is used to resize the input image before gettin
 
 Please download `trainedNetwork_indoor.mat` and `trainedNetwork_outdoor.mat` to use our trained networks for indoor and outdoor areas that we chose.
 You have to load the appropriate model into the MATLAB command window and then query the network with images in the "photos" folder, which contains real photos taken directly with a camera.
+
+## Citation
+
+If you use the code or the data for your research, please cite the paper:
+
+```
+@article{gruosso2020human,
+  title={Human segmentation in surveillance video with deep learning},
+  author={Gruosso, Monica and Capece, Nicola and Erra, Ugo},
+  journal={Multimedia Tools and Applications},
+  pages={1--25},
+  year={2020},
+  publisher={Springer}
+}
+```
