@@ -1,9 +1,9 @@
 # Human Segmentation in Surveillance Video with Deep Learning
----
+
 ![teaser](images/teaser.png)
 
 ## Usage
----
+
 
 The implementation of our work is built on MATLAB R2018a and the Deep Learning Toolbox is requested.
 Note that this tutorial assumes that your root folder is `/human-segmentation/`. 
