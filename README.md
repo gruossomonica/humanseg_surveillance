@@ -40,7 +40,13 @@ Run the code in `trainMySegnet.m` to train the network.
 
 ### Test
 
-Run the code in `testMySegnet.m` to test the trained network.
+Run the code in `testMySegnet.m` to test the trained network and compute metrics.
+
+### Pretrained models
+
+- Please download the [pretrained models](https://drive.google.com/drive/folders/1SZ-o2a0VBJTlzp6MzsbLA05MX1hjT1UD?usp=sharing)
+- Choose the suitable network: `trainedNetwork_indoor.mat` and `trainedNetwork_outdoor.mat` are the trained networks for indoor and outdoor areas that we chose.
+- Load the appropriate model into the MATLAB command window and then [query the network](#query-trained-network) with images in the "photos" folder, which contains real photos taken directly with a camera.
 
 ### Query trained network
 
@@ -50,13 +56,7 @@ The colormap is defined in `myColorMap.m`.
 The function `pixelLabelColorbar.m` is useful to add a colorbar to the current axis. 
 The colorbar is formatted to display the class names with the color.
 
-The function `preprocessImage.m` is used to resize the input image before getting it to the network, according to the image input size defined in the first layer.
-
-### Pretrained models
-
-- Please download the [pretrained models](https://drive.google.com/drive/folders/1SZ-o2a0VBJTlzp6MzsbLA05MX1hjT1UD?usp=sharing)
-- Choose the suitable network: `trainedNetwork_indoor.mat` and `trainedNetwork_outdoor.mat` are the trained networks for indoor and outdoor areas that we chose.
-- Load the appropriate model into the MATLAB command window and then query the network with images in the "photos" folder, which contains real photos taken directly with a camera.
+The function `preprocessImage.m` is used to resize the input image before passing it to the network, according to the image input size defined in the input layer.
 
 ## Citation
 
