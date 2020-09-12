@@ -54,9 +54,9 @@ Run the code in `semanticseg_newImage.m` to query the trained network and get th
 The colormap is defined in `myColorMap.m`. 
 
 The function `pixelLabelColorbar.m` is useful to add a colorbar to the current axis. 
-The colorbar is formatted to display the class names with the color.
+The colorbar is formatted to display the class names with the colors.
 
-The function `preprocessImage.m` is used to resize the input image before passing it to the network, according to the image input size defined in the input layer.
+The function `preprocessImage.m` is used to resize the input image before passing it to the network, according to the image size defined in the input layer.
 
 ## Citation
 
