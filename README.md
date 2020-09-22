@@ -2,7 +2,7 @@
 
 ![teaser](images/teaser.png)
 
-This repo contains the official training and testing code for Human Segmentation in Surveillance Video with Deep Learning (MTAP, 2020).
+This repo contains the official training and testing code for Human Segmentation in Surveillance Video with Deep Learning (_Multimedia Tools and Applications, 2020_).
 
 For technical details and the dataset, please refer to the [paper](https://link.springer.com/article/10.1007/s11042-020-09425-0) and [project page](http://graphics.unibas.it/www/HumanSegmentation/index.md.html)
 
