@@ -4,7 +4,7 @@
 
 This repo contains the official training and testing code for Human Segmentation in Surveillance Video with Deep Learning (_Multimedia Tools and Applications, 2020_).
 
-For technical details, please refer to the [paper](https://link.springer.com/article/10.1007/s11042-020-09425-0).
+Please, refer to the [paper](https://link.springer.com/article/10.1007/s11042-020-09425-0) for technical details.
 
 A video demo of our project is available on the [project page](http://graphics.unibas.it/www/HumanSegmentation/index.md.html).
 
