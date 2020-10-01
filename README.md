@@ -65,6 +65,14 @@ The function `preprocessImage.m` is used to resize the input image before passin
 We will release our dataset for encouraging future research on human segmentation. 
 Please send an email to monica.gruosso@unibas.it if you need it for academic research and non-commercial purposes.
 
+Before requesting our data, please verify that you understand and agree to comply with the following:
+- This data may ONLY be used for non-commercial uses (This also means that it cannot be used to train models for commercial use).
+- You may NOT redistribute the dataset. This includes posting it on a website or sending it to others.
+- You may include images from our dataset in academic papers.
+- Any publications utilizing this dataset have to reference our paper.
+- These restrictions include not just the images in their current form but any images created from these images (i.e. “derivative” images).
+- Models trained using our data may only be distributed (posted on the internet or given to others) under the condition that the model can only be used for non-commercial uses.
+
 
 ## Citation
 
