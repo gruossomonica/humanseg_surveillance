@@ -46,7 +46,7 @@ Run the code in `testMySegnet.m` to test the trained network and compute metrics
 
 ### Pretrained models
 
-- Please download the [pretrained models](https://drive.google.com/drive/folders/1SZ-o2a0VBJTlzp6MzsbLA05MX1hjT1UD?usp=sharing)
+- Please download the [pretrained models](https://drive.google.com/drive/folders/1SZ-o2a0VBJTlzp6MzsbLA05MX1hjT1UD?usp=sharing). Please, note that models can only be used for non-commercial uses.
 - Choose the suitable network: `trainedNetwork_indoor.mat` and `trainedNetwork_outdoor.mat` are the trained networks for indoor and outdoor areas that we chose.
 - Load the appropriate model into the MATLAB command window and then [query the network](#query-trained-network) with images in the "photos" folder, which contains real photos taken directly with a camera.
 
