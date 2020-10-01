@@ -4,7 +4,9 @@
 
 This repo contains the official training and testing code for Human Segmentation in Surveillance Video with Deep Learning (_Multimedia Tools and Applications, 2020_).
 
-For technical details and the dataset, please refer to the [paper](https://link.springer.com/article/10.1007/s11042-020-09425-0) and [project page](http://graphics.unibas.it/www/HumanSegmentation/index.md.html).
+For technical details, please refer to the [paper](https://link.springer.com/article/10.1007/s11042-020-09425-0).
+
+A video demo of our project is available on the [project page](http://graphics.unibas.it/www/HumanSegmentation/index.md.html).
 
 ## Usage
 
@@ -57,6 +59,12 @@ The function `pixelLabelColorbar.m` is useful to add a colorbar to the current a
 The colorbar is formatted to display the class names with the colors.
 
 The function `preprocessImage.m` is used to resize the input image before passing it to the network, according to the image size defined in the input layer.
+
+## Dataset
+
+We will release our dataset for encouraging future research on human segmentation. 
+Please send an email to monica.gruosso@unibas.it if you need it for academic research and non-commercial purposes.
+
 
 ## Citation
 
