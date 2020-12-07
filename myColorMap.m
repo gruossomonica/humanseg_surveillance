@@ -5,8 +5,8 @@ function cmap = myColorMap()
 %   - cmap: the colormap
 
     cmap = [
-        214 10 66; ... % foreground --> fucsia
-        73 236 254; ... % background --> celeste
+        214 10 66; ... % foreground --> magenta
+        73 236 254; ... % background --> cyan
         ];
 
     % Normalize between [0 1].
